@@ -1,0 +1,9 @@
+
+
+for(i=0;i<=length.dinogroup;i++){
+for(j=0;j<=bubbleGroup;j++){
+if(dinogroup.get(i).isTouching(bubbleGroup.get(j)))
+dinogroup.get(i).remove
+bubbleGroup.get(j).remove
+}
+}
