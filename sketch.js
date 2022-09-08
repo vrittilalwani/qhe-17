@@ -162,7 +162,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(displayWidth - 5, displayHeight - 120);
+  createCanvas(width - 5, height - 120);
 
   codeWordInput = createInput("").attribute(
     "placeholder",
